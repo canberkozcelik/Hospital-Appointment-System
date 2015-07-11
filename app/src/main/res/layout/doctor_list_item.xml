@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/doctorTableRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/doctorFirstnameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/doctorLastnameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/requestAppFromList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Request Appointment"
+        android:textSize="12sp" />
+
+</TableRow>

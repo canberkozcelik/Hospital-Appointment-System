@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Hosapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_account"><u>Click here to create account.</u></string>
+    <string name="forget"><u>Forgot your password?</u></string>
+    <string name="login">Login</string>
+</resources>

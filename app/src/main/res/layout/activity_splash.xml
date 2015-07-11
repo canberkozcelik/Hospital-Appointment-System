@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/actionbar"
+        android:indeterminate="true"
+        android:minHeight="10dp" />
+
+    <TextView
+        android:id="@+id/infoSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:id="@+id/loginInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="to"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Hospital Appointment System"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/allrights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView02"
+        android:layout_centerHorizontal="true"
+        android:text="all rights reserved ® 2014"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
